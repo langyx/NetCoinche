@@ -6,22 +6,27 @@ namespace NetCoinche
 {
     public static class Tools
     {
-        public static string[] getIpPortFromString(string str)
+        public static MyIp getIpPortFromString(string str)
         {
-            var ipAndPort = new string[2];
+            var newIp = new MyIp();
 
             var serverIP = str.Split(':').First();
             var serverPort = str.Split(':').Last();
-           
-            ipAndPort[0] = serverIP;
-            ipAndPort[1] = serverPort;
+         
+            newIp.Ip = serverIP;
+            newIp.Port = serverPort;
             
-            return ipAndPort;
+            return newIp;
         }
 
         public static int getPortFromString(string port)
         {
             return Parse(port.Split(':').Last());
+        }
+
+        public static string getMessageFromClient(string message)
+        {
+            return message.Split(':').First();
         }
     }
 }
