@@ -1,0 +1,6 @@
+/Users/yannis/Documents/Epitech/3ème année/NetCoinche/Client/bin/Debug/Client.exe
+/Users/yannis/Documents/Epitech/3ème année/NetCoinche/Client/bin/Debug/Client.pdb
+/Users/yannis/Documents/Epitech/3ème année/NetCoinche/Client/obj/Debug/Client.csprojResolveAssemblyReference.cache
+/Users/yannis/Documents/Epitech/3ème année/NetCoinche/Client/obj/Debug/Client.csproj.CoreCompileInputs.cache
+/Users/yannis/Documents/Epitech/3ème année/NetCoinche/Client/obj/Debug/Client.exe
+/Users/yannis/Documents/Epitech/3ème année/NetCoinche/Client/obj/Debug/Client.pdb

@@ -1,0 +1,18 @@
+Comment: The header data follows:73-0D-0A-62-69-74-65-0D-0A-FF-F4-FF-FD-06-FF-F4-FF-FD-06-FF-F4-FF-FD-06-04-04-0D-0A-04-0D-0A-FF-F4-FF-FD-06-04-04-04-04-04-04-04-04-04-04-04-04-04-04-04-04-04-04-04-04-04-04-04-04-04-04-04-04-04-04-04-04-04-04-04-04-04-04-04-04-04-04-04-04-04-04-04-04-04-04-04-04-04-04-04-04-04-04-04-04-04-04-04-04-04-04-04-04-04-04-04-04
+
+Base Exception Type: System.ArgumentException: An item with the same key has already been added. Key: 67372036
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].TryInsert (TKey key, TValue value, System.Collections.Generic.InsertionBehavior behavior) [0x000bb] in <c9f8153c41de4f8cbafd0e32f9bf6b28>:0 
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].Add (TKey key, TValue value) [0x00000] in <c9f8153c41de4f8cbafd0e32f9bf6b28>:0 
+  at NetworkCommsDotNet.PacketHeader.Deserialize (System.IO.Stream inputStream) [0x0008e] in <048db0d4e7f74e70bc2ce38396e48955>:0 
+  at NetworkCommsDotNet.DPSBase.ExplicitSerializer.DeserialiseDataObjectInt (System.IO.Stream inputStream, System.Type resultType, System.Collections.Generic.Dictionary`2[TKey,TValue] options) [0x003a9] in <048db0d4e7f74e70bc2ce38396e48955>:0 
+  at NetworkCommsDotNet.DPSBase.DataSerializer.DeserialiseGeneralObject[T] (System.IO.MemoryStream receivedObjectStream, System.Collections.Generic.List`1[T] dataProcessors, System.Collections.Generic.Dictionary`2[TKey,TValue] options) [0x00016] in <048db0d4e7f74e70bc2ce38396e48955>:0 
+  at NetworkCommsDotNet.DPSBase.DataSerializer.DeserialiseDataObject[T] (System.IO.MemoryStream receivedObjectStream, System.Collections.Generic.List`1[T] dataProcessors, System.Collections.Generic.Dictionary`2[TKey,TValue] options) [0x00044] in <048db0d4e7f74e70bc2ce38396e48955>:0 
+  at NetworkCommsDotNet.PacketHeader..ctor (System.IO.MemoryStream packetHeaderStream, NetworkCommsDotNet.SendReceiveOptions headerSendReceiveOptions) [0x00065] in <048db0d4e7f74e70bc2ce38396e48955>:0 
+
+Stack Trace:   at System.Collections.Generic.Dictionary`2[TKey,TValue].TryInsert (TKey key, TValue value, System.Collections.Generic.InsertionBehavior behavior) [0x000bb] in <c9f8153c41de4f8cbafd0e32f9bf6b28>:0 
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].Add (TKey key, TValue value) [0x00000] in <c9f8153c41de4f8cbafd0e32f9bf6b28>:0 
+  at NetworkCommsDotNet.PacketHeader.Deserialize (System.IO.Stream inputStream) [0x0008e] in <048db0d4e7f74e70bc2ce38396e48955>:0 
+  at NetworkCommsDotNet.DPSBase.ExplicitSerializer.DeserialiseDataObjectInt (System.IO.Stream inputStream, System.Type resultType, System.Collections.Generic.Dictionary`2[TKey,TValue] options) [0x003a9] in <048db0d4e7f74e70bc2ce38396e48955>:0 
+  at NetworkCommsDotNet.DPSBase.DataSerializer.DeserialiseGeneralObject[T] (System.IO.MemoryStream receivedObjectStream, System.Collections.Generic.List`1[T] dataProcessors, System.Collections.Generic.Dictionary`2[TKey,TValue] options) [0x00016] in <048db0d4e7f74e70bc2ce38396e48955>:0 
+  at NetworkCommsDotNet.DPSBase.DataSerializer.DeserialiseDataObject[T] (System.IO.MemoryStream receivedObjectStream, System.Collections.Generic.List`1[T] dataProcessors, System.Collections.Generic.Dictionary`2[TKey,TValue] options) [0x00044] in <048db0d4e7f74e70bc2ce38396e48955>:0 
+  at NetworkCommsDotNet.PacketHeader..ctor (System.IO.MemoryStream packetHeaderStream, NetworkCommsDotNet.SendReceiveOptions headerSendReceiveOptions) [0x00065] in <048db0d4e7f74e70bc2ce38396e48955>:0 

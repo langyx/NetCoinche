@@ -1,0 +1,6 @@
+/Users/yannis/Documents/Epitech/3ème année/NetCoinche/NetCoinche/bin/Debug/NetCoinche.exe
+/Users/yannis/Documents/Epitech/3ème année/NetCoinche/NetCoinche/bin/Debug/NetCoinche.pdb
+/Users/yannis/Documents/Epitech/3ème année/NetCoinche/NetCoinche/obj/Debug/NetCoinche.csprojResolveAssemblyReference.cache
+/Users/yannis/Documents/Epitech/3ème année/NetCoinche/NetCoinche/obj/Debug/NetCoinche.csproj.CoreCompileInputs.cache
+/Users/yannis/Documents/Epitech/3ème année/NetCoinche/NetCoinche/obj/Debug/NetCoinche.exe
+/Users/yannis/Documents/Epitech/3ème année/NetCoinche/NetCoinche/obj/Debug/NetCoinche.pdb
