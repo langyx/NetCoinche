@@ -45,19 +45,19 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Card.cs" />
-    <Compile Include="CardFamily.cs" />
-    <Compile Include="CardName.cs" />
-    <Compile Include="GameEngine.cs" />
-    <Compile Include="GameState.cs" />
-    <Compile Include="Player.cs" />
-    <Compile Include="Programm.cs" />
+    <Compile Include="GameCore\GameEngine.cs" />
+    <Compile Include="GameCore\GameState.cs" />
+    <Compile Include="GameElements\Card.cs" />
+    <Compile Include="GameElements\CardFamily.cs" />
+    <Compile Include="GameElements\CardName.cs" />
+    <Compile Include="GameTable\Player.cs" />
+    <Compile Include="GameTable\Table.cs" />
+    <Compile Include="GameTable\Team.cs" />
+    <Compile Include="Main\Programm.cs" />
+    <Compile Include="Main\Server.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Server.cs" />
     <Compile Include="ServerHandler\MyIp.cs" />
     <Compile Include="ServerHandler\ServerHandler.cs" />
-    <Compile Include="Table.cs" />
-    <Compile Include="Team.cs" />
     <Compile Include="Tools\Tools.cs" />
   </ItemGroup>
   <ItemGroup>
